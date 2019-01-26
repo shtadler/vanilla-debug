@@ -52,3 +52,16 @@
     background: #34CACA linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
   }
 }
+
+#addChild {
+  width: 500px;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 50px auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.22);
+  text-align: center;
+
+  span {
+    padding: 10px;
+  }
+}

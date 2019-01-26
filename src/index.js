@@ -14,3 +14,13 @@ button.addEventListener('click', () => concater.getFullName());
 fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(response => response.json())
   .then(json => console.log(json));
+
+
+// subtree modification breakpoint
+const container = document.getElementById('addChild');
+container.addEventListener('click', () => {
+  const newLi = document.createElement('span');
+  newLi.innerHTML = 'Привет, мир!';
+
+  container.appendChild(newLi);
+});
